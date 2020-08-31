@@ -24,15 +24,12 @@
 
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
-            <div class="container">
-
-                <div>
-                    <a class="navbar-brand" href="{{ url('/') }}">
+        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm p-0">
+            <div class="container pl-0">
+                    <a class="navbar-brand d-flex justify-content-center align-items-center" href="{{ url('/') }}">
                         <img src="/storage/system/reddit-24.png" alt="">
-                        <span class="title">reddit</span>
+                        <strong class="title ml-2">reddit</strong>
                     </a>
-                </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
